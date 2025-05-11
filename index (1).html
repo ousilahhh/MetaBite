@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MetaBite | Smart Diet Assistant Glasses</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #0a0f1c;
+      color: #ffffff;
+    }
+    header {
+      background: #10192d;
+      padding: 1.5rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 {
+      font-size: 1.8rem;
+      color: #00ffe0;
+    }
+    nav a {
+      color: #ffffff;
+      margin-left: 1.5rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      text-align: center;
+      padding: 4rem 2rem;
+      background: linear-gradient(to bottom right, #1e2947, #0a0f1c);
+    }
+    .hero h2 {
+      font-size: 2.5rem;
+      color: #00ffe0;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      margin-top: 1rem;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .plans {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin: 3rem 2rem;
+      gap: 2rem;
+    }
+    .plan {
+      background: #1c2436;
+      border: 2px solid #00ffe0;
+      border-radius: 12px;
+      padding: 2rem;
+      width: 300px;
+      text-align: center;
+    }
+    .plan h3 {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+    .plan p {
+      font-size: 1rem;
+      margin-bottom: 1.5rem;
+    }
+    .plan button {
+      background-color: #00ffe0;
+      color: #000;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      border-radius: 8px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: #10192d;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>MetaBite</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#plans">Plans</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Smart Glasses for Smarter Eating</h2>
+    <p>MetaBite uses AI and AR to analyze your food, track your diet, and give real-time feedback to help you reach your personal health goals.</p>
+  </section>
+
+  <section class="plans" id="plans">
+    <div class="plan">
+      <h3>Basic</h3>
+      <p>Food analysis, nutritional data & mobile tracking.</p>
+      <button onclick="location.href='https://buy.stripe.com/test_basic'">Choose Basic</button>
+    </div>
+    <div class="plan">
+      <h3>Premium</h3>
+      <p>Includes Basic + custom goals and recipe suggestions.</p>
+      <button onclick="location.href='https://buy.stripe.com/test_premium'">Choose Premium</button>
+    </div>
+    <div class="plan">
+      <h3>Pro</h3>
+      <p>All features plus real-time coaching and diet plans.</p>
+      <button onclick="location.href='https://buy.stripe.com/test_pro'">Choose Pro</button>
+    </div>
+  </section>
+
+  <footer id="contact">
+    <p>&copy; 2025 MetaBite. All rights reserved. Contact us at support@metabite.com</p>
+  </footer>
+</body>
+</html>
